@@ -1,0 +1,1112 @@
+{
+  "nodes": [
+    {
+      "id": "eslint_configjs",
+      "label": "ESLint Configuration",
+      "file_type": "code",
+      "source_file": "frontend/eslint.config.js",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "vite_configjs",
+      "label": "Vite Configuration",
+      "file_type": "code",
+      "source_file": "frontend/vite.config.js",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "appjsx",
+      "label": "Main React Application Component",
+      "file_type": "code",
+      "source_file": "frontend/src/App.jsx",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "mainjsx",
+      "label": "React Entry Point",
+      "file_type": "code",
+      "source_file": "frontend/src/main.jsx",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "index_html",
+      "label": "HTML Entry Point",
+      "file_type": "document",
+      "source_file": "frontend/index.html",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "main_py",
+      "label": "Users Service FastAPI Application",
+      "file_type": "code",
+      "source_file": "services/users-service/main.py",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "auth_py",
+      "label": "JWT and Password Authentication",
+      "file_type": "code",
+      "source_file": "services/users-service/auth.py",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "database_py",
+      "label": "SQLAlchemy Database Setup",
+      "file_type": "code",
+      "source_file": "services/users-service/database.py",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "models_py",
+      "label": "User SQLAlchemy Model",
+      "file_type": "code",
+      "source_file": "services/users-service/models.py",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "schemas_py",
+      "label": "Pydantic User Schemas",
+      "file_type": "code",
+      "source_file": "services/users-service/schemas.py",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "readme_pet_insurance_microservices",
+      "label": "Pet Insurance Microservices",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "system_architecture_microservices_architecture",
+      "label": "Microservices Architecture",
+      "file_type": "document",
+      "source_file": "docs/system_architecture.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "system_architecture_api_gateway",
+      "label": "API Gateway (Nginx)",
+      "file_type": "document",
+      "source_file": "docs/system_architecture.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "system_architecture_frontend",
+      "label": "Frontend Application",
+      "file_type": "document",
+      "source_file": "docs/system_architecture.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "system_architecture_users_service",
+      "label": "Users Service",
+      "file_type": "document",
+      "source_file": "docs/system_architecture.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "system_architecture_policies_service",
+      "label": "Policies Service",
+      "file_type": "document",
+      "source_file": "docs/system_architecture.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "system_architecture_claims_service",
+      "label": "Claims Service",
+      "file_type": "document",
+      "source_file": "docs/system_architecture.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "system_architecture_postgresql",
+      "label": "PostgreSQL Database",
+      "file_type": "document",
+      "source_file": "docs/system_architecture.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "project_planning_phase_1",
+      "label": "Phase 1: Foundation and Scaffolding",
+      "file_type": "document",
+      "source_file": "docs/project_planning.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "project_planning_phase_2",
+      "label": "Phase 2: Database and Persistence",
+      "file_type": "document",
+      "source_file": "docs/project_planning.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "project_planning_phase_3",
+      "label": "Phase 3: Core Business Logic and Integration",
+      "file_type": "document",
+      "source_file": "docs/project_planning.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "project_planning_phase_4",
+      "label": "Phase 4: Production Readiness",
+      "file_type": "document",
+      "source_file": "docs/project_planning.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "api_documentation_users_service",
+      "label": "Users Service API",
+      "file_type": "document",
+      "source_file": "docs/api_documentation.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "api_documentation_policies_service",
+      "label": "Policies Service API",
+      "file_type": "document",
+      "source_file": "docs/api_documentation.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "api_documentation_claims_service",
+      "label": "Claims Service API",
+      "file_type": "document",
+      "source_file": "docs/api_documentation.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "user_guide_quote_feature",
+      "label": "Get a Quote Feature",
+      "file_type": "document",
+      "source_file": "docs/user_guide.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "user_guide_claim_submission",
+      "label": "Submit a Claim Feature",
+      "file_type": "document",
+      "source_file": "docs/user_guide.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "policies_service_main_generate_quote",
+      "label": "generate_quote",
+      "file_type": "code",
+      "source_file": "services/policies-service/main.py",
+      "source_location": 13,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "policies_service_main_create_policy",
+      "label": "create_policy",
+      "file_type": "code",
+      "source_file": "services/policies-service/main.py",
+      "source_location": 34,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "policies_service_main_get_policies",
+      "label": "get_policies",
+      "file_type": "code",
+      "source_file": "services/policies-service/main.py",
+      "source_location": 42,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "policies_service_main_get_policy",
+      "label": "get_policy",
+      "file_type": "code",
+      "source_file": "services/policies-service/main.py",
+      "source_location": 47,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "policies_service_main_health_check",
+      "label": "health_check",
+      "file_type": "code",
+      "source_file": "services/policies-service/main.py",
+      "source_location": 54,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "policies_service_database_get_db",
+      "label": "get_db",
+      "file_type": "code",
+      "source_file": "services/policies-service/database.py",
+      "source_location": 12,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "policies_service_models_policy",
+      "label": "Policy",
+      "file_type": "code",
+      "source_file": "services/policies-service/models.py",
+      "source_location": 4,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "policies_service_schemas_policybase",
+      "label": "PolicyBase",
+      "file_type": "code",
+      "source_file": "services/policies-service/schemas.py",
+      "source_location": 3,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "policies_service_schemas_policycreate",
+      "label": "PolicyCreate",
+      "file_type": "code",
+      "source_file": "services/policies-service/schemas.py",
+      "source_location": 11,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "policies_service_schemas_policy",
+      "label": "Policy",
+      "file_type": "code",
+      "source_file": "services/policies-service/schemas.py",
+      "source_location": 14,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "policies_service_schemas_quoterequest",
+      "label": "QuoteRequest",
+      "file_type": "code",
+      "source_file": "services/policies-service/schemas.py",
+      "source_location": 20,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "policies_service_schemas_quoteresponse",
+      "label": "QuoteResponse",
+      "file_type": "code",
+      "source_file": "services/policies-service/schemas.py",
+      "source_location": 25,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "claims_service_main_create_claim",
+      "label": "create_claim",
+      "file_type": "code",
+      "source_file": "services/claims-service/main.py",
+      "source_location": 16,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "claims_service_main_get_claims",
+      "label": "get_claims",
+      "file_type": "code",
+      "source_file": "services/claims-service/main.py",
+      "source_location": 32,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "claims_service_main_health_check",
+      "label": "health_check",
+      "file_type": "code",
+      "source_file": "services/claims-service/main.py",
+      "source_location": 37,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "claims_service_database_get_db",
+      "label": "get_db",
+      "file_type": "code",
+      "source_file": "services/claims-service/database.py",
+      "source_location": 12,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "claims_service_models_claim",
+      "label": "Claim",
+      "file_type": "code",
+      "source_file": "services/claims-service/models.py",
+      "source_location": 4,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "claims_service_schemas_claimbase",
+      "label": "ClaimBase",
+      "file_type": "code",
+      "source_file": "services/claims-service/schemas.py",
+      "source_location": 3,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "claims_service_schemas_claimcreate",
+      "label": "ClaimCreate",
+      "file_type": "code",
+      "source_file": "services/claims-service/schemas.py",
+      "source_location": 8,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "claims_service_schemas_claim",
+      "label": "Claim",
+      "file_type": "code",
+      "source_file": "services/claims-service/schemas.py",
+      "source_location": 11,
+      "source_url": null,
+      "author": null,
+      "contributor": null
+    }
+  ],
+  "edges": [
+    {
+      "source": "mainjsx",
+      "target": "appjsx",
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "frontend/src/main.jsx",
+      "source_location": 4,
+      "weight": 1.0
+    },
+    {
+      "source": "mainjsx",
+      "target": "index_css",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "frontend/src/main.jsx",
+      "source_location": 3,
+      "weight": 1.0
+    },
+    {
+      "source": "index_html",
+      "target": "mainjsx",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "frontend/index.html",
+      "source_location": 11,
+      "weight": 1.0
+    },
+    {
+      "source": "appjsx",
+      "target": "main_py",
+      "relation": "conceptually_related_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.85,
+      "source_file": "frontend/src/App.jsx",
+      "source_location": 44,
+      "weight": 1.0
+    },
+    {
+      "source": "main_py",
+      "target": "auth_py",
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "services/users-service/main.py",
+      "source_location": 7,
+      "weight": 1.0
+    },
+    {
+      "source": "main_py",
+      "target": "auth_py",
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "services/users-service/main.py",
+      "source_location": 24,
+      "weight": 1.0
+    },
+    {
+      "source": "main_py",
+      "target": "auth_py",
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "services/users-service/main.py",
+      "source_location": 41,
+      "weight": 1.0
+    },
+    {
+      "source": "main_py",
+      "target": "auth_py",
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "services/users-service/main.py",
+      "source_location": 51,
+      "weight": 1.0
+    },
+    {
+      "source": "main_py",
+      "target": "auth_py",
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "services/users-service/main.py",
+      "source_location": 58,
+      "weight": 1.0
+    },
+    {
+      "source": "main_py",
+      "target": "database_py",
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "services/users-service/main.py",
+      "source_location": 8,
+      "weight": 1.0
+    },
+    {
+      "source": "main_py",
+      "target": "database_py",
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "services/users-service/main.py",
+      "source_location": 11,
+      "weight": 1.0
+    },
+    {
+      "source": "main_py",
+      "target": "models_py",
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "services/users-service/main.py",
+      "source_location": 7,
+      "weight": 1.0
+    },
+    {
+      "source": "main_py",
+      "target": "models_py",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "services/users-service/main.py",
+      "source_location": 30,
+      "weight": 1.0
+    },
+    {
+      "source": "main_py",
+      "target": "schemas_py",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "services/users-service/main.py",
+      "source_location": 35,
+      "weight": 1.0
+    },
+    {
+      "source": "models_py",
+      "target": "database_py",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "services/users-service/models.py",
+      "source_location": 2,
+      "weight": 1.0
+    },
+    {
+      "source": "auth_py",
+      "target": "models_py",
+      "relation": "semantically_similar_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.7,
+      "source_file": "services/users-service/auth.py",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "schemas_py",
+      "target": "models_py",
+      "relation": "conceptually_related_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "services/users-service/schemas.py",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "vite_configjs",
+      "target": "appjsx",
+      "relation": "conceptually_related_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.75,
+      "source_file": "frontend/vite.config.js",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "system_architecture_api_gateway",
+      "target": "system_architecture_frontend",
+      "relation": "routes_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/system_architecture.md",
+      "source_location": 14,
+      "weight": 1.0
+    },
+    {
+      "source": "system_architecture_api_gateway",
+      "target": "system_architecture_policies_service",
+      "relation": "routes_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/system_architecture.md",
+      "source_location": 15,
+      "weight": 1.0
+    },
+    {
+      "source": "system_architecture_api_gateway",
+      "target": "system_architecture_claims_service",
+      "relation": "routes_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/system_architecture.md",
+      "source_location": 15,
+      "weight": 1.0
+    },
+    {
+      "source": "system_architecture_api_gateway",
+      "target": "system_architecture_users_service",
+      "relation": "routes_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/system_architecture.md",
+      "source_location": 15,
+      "weight": 1.0
+    },
+    {
+      "source": "system_architecture_policies_service",
+      "target": "system_architecture_postgresql",
+      "relation": "uses",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/system_architecture.md",
+      "source_location": 24,
+      "weight": 1.0
+    },
+    {
+      "source": "system_architecture_claims_service",
+      "target": "system_architecture_postgresql",
+      "relation": "uses",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/system_architecture.md",
+      "source_location": 36,
+      "weight": 1.0
+    },
+    {
+      "source": "system_architecture_claims_service",
+      "target": "system_architecture_policies_service",
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/system_architecture.md",
+      "source_location": 33,
+      "weight": 1.0
+    },
+    {
+      "source": "claims_service_main_create_claim",
+      "target": "policies_service_main_get_policy",
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "services/claims-service/main.py",
+      "source_location": 20,
+      "weight": 1.0
+    },
+    {
+      "source": "policies_service_main_create_policy",
+      "target": "policies_service_models_policy",
+      "relation": "uses",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "services/policies-service/main.py",
+      "source_location": 36,
+      "weight": 1.0
+    },
+    {
+      "source": "policies_service_main_create_policy",
+      "target": "policies_service_schemas_policycreate",
+      "relation": "uses",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "services/policies-service/main.py",
+      "source_location": 35,
+      "weight": 1.0
+    },
+    {
+      "source": "policies_service_main_get_policies",
+      "target": "policies_service_models_policy",
+      "relation": "uses",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "services/policies-service/main.py",
+      "source_location": 44,
+      "weight": 1.0
+    },
+    {
+      "source": "policies_service_main_get_policy",
+      "target": "policies_service_models_policy",
+      "relation": "uses",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "services/policies-service/main.py",
+      "source_location": 49,
+      "weight": 1.0
+    },
+    {
+      "source": "policies_service_main_generate_quote",
+      "target": "policies_service_schemas_quoterequest",
+      "relation": "uses",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "services/policies-service/main.py",
+      "source_location": 14,
+      "weight": 1.0
+    },
+    {
+      "source": "policies_service_main_generate_quote",
+      "target": "policies_service_schemas_quoteresponse",
+      "relation": "returns",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "services/policies-service/main.py",
+      "source_location": 13,
+      "weight": 1.0
+    },
+    {
+      "source": "claims_service_main_create_claim",
+      "target": "claims_service_models_claim",
+      "relation": "uses",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "services/claims-service/main.py",
+      "source_location": 26,
+      "weight": 1.0
+    },
+    {
+      "source": "claims_service_main_create_claim",
+      "target": "claims_service_schemas_claimcreate",
+      "relation": "uses",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "services/claims-service/main.py",
+      "source_location": 17,
+      "weight": 1.0
+    },
+    {
+      "source": "claims_service_main_get_claims",
+      "target": "claims_service_models_claim",
+      "relation": "uses",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "services/claims-service/main.py",
+      "source_location": 34,
+      "weight": 1.0
+    },
+    {
+      "source": "user_guide_quote_feature",
+      "target": "api_documentation_policies_service",
+      "relation": "implemented_by",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/user_guide.md",
+      "source_location": 22,
+      "weight": 1.0
+    },
+    {
+      "source": "user_guide_claim_submission",
+      "target": "api_documentation_claims_service",
+      "relation": "implemented_by",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/user_guide.md",
+      "source_location": 27,
+      "weight": 1.0
+    },
+    {
+      "source": "policies_service_main_generate_quote",
+      "target": "user_guide_quote_feature",
+      "relation": "provides_data_for",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/user_guide.md",
+      "source_location": 24,
+      "weight": 1.0
+    },
+    {
+      "source": "policies_service_main_create_policy",
+      "target": "user_guide_quote_feature",
+      "relation": "follows_up_on",
+      "confidence": "INFERRED",
+      "confidence_score": 0.85,
+      "source_file": "docs/user_guide.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "claims_service_main_create_claim",
+      "target": "user_guide_claim_submission",
+      "relation": "provides_data_for",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/user_guide.md",
+      "source_location": 29,
+      "weight": 1.0
+    },
+    {
+      "source": "policies_service_schemas_policy",
+      "target": "policies_service_models_policy",
+      "relation": "conceptually_related_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.9,
+      "source_file": "services/policies-service/schemas.py",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "claims_service_schemas_claim",
+      "target": "claims_service_models_claim",
+      "relation": "conceptually_related_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.9,
+      "source_file": "services/claims-service/schemas.py",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "policies_service_main_health_check",
+      "target": "claims_service_main_health_check",
+      "relation": "semantically_similar_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.9,
+      "source_file": "services/policies-service/main.py",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "policies_service_main_create_policy",
+      "target": "claims_service_main_create_claim",
+      "relation": "semantically_similar_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.75,
+      "source_file": "services/policies-service/main.py",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "policies_service_schemas_quoterequest",
+      "target": "claims_service_schemas_claimcreate",
+      "relation": "semantically_similar_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.7,
+      "source_file": "services/policies-service/schemas.py",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "policies_service_database_get_db",
+      "target": "claims_service_database_get_db",
+      "relation": "semantically_similar_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.9,
+      "source_file": "services/policies-service/database.py",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "policies_service_models_policy",
+      "target": "claims_service_models_claim",
+      "relation": "semantically_similar_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.75,
+      "source_file": "services/policies-service/models.py",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "system_architecture_policies_service",
+      "target": "api_documentation_policies_service",
+      "relation": "implemented_by",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/api_documentation.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "system_architecture_claims_service",
+      "target": "api_documentation_claims_service",
+      "relation": "implemented_by",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/api_documentation.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "system_architecture_users_service",
+      "target": "api_documentation_users_service",
+      "relation": "implemented_by",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/api_documentation.md",
+      "source_location": null,
+      "weight": 1.0
+    }
+  ],
+  "hyperedges": [
+    {
+      "id": "users_service_auth_flow",
+      "label": "User Authentication Flow",
+      "nodes": [
+        "main_py",
+        "auth_py",
+        "models_py",
+        "schemas_py",
+        "database_py"
+      ],
+      "relation": "participate_in",
+      "confidence": "EXTRACTED",
+      "confidence_score": 0.95,
+      "source_file": "services/users-service/main.py"
+    },
+    {
+      "id": "frontend_backend_integration",
+      "label": "Frontend-Backend API Integration",
+      "nodes": [
+        "appjsx",
+        "main_py"
+      ],
+      "relation": "participate_in",
+      "confidence": "INFERRED",
+      "confidence_score": 0.85,
+      "source_file": "frontend/src/App.jsx"
+    },
+    {
+      "id": "react_application_stack",
+      "label": "React Application Stack",
+      "nodes": [
+        "appjsx",
+        "mainjsx",
+        "index_html",
+        "vite_configjs"
+      ],
+      "relation": "participate_in",
+      "confidence": "EXTRACTED",
+      "confidence_score": 0.9,
+      "source_file": "frontend/index.html"
+    },
+    {
+      "id": "microservices_stack",
+      "label": "Pet Insurance Microservices Stack",
+      "nodes": [
+        "system_architecture_api_gateway",
+        "system_architecture_users_service",
+        "system_architecture_policies_service",
+        "system_architecture_claims_service",
+        "system_architecture_postgresql"
+      ],
+      "relation": "implement",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/system_architecture.md"
+    },
+    {
+      "id": "policies_service_components",
+      "label": "Policies Service Components",
+      "nodes": [
+        "policies_service_main_create_policy",
+        "policies_service_main_get_policies",
+        "policies_service_main_get_policy",
+        "policies_service_main_generate_quote",
+        "policies_service_models_policy",
+        "policies_service_schemas_policy"
+      ],
+      "relation": "form",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "services/policies-service/main.py"
+    },
+    {
+      "id": "claims_service_components",
+      "label": "Claims Service Components",
+      "nodes": [
+        "claims_service_main_create_claim",
+        "claims_service_main_get_claims",
+        "claims_service_models_claim",
+        "claims_service_schemas_claim"
+      ],
+      "relation": "form",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "services/claims-service/main.py"
+    }
+  ],
+  "input_tokens": 0,
+  "output_tokens": 0
+}
