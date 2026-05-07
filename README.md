@@ -18,7 +18,7 @@ A modern, containerized microservices application for a pet insurance platform. 
    docker compose up --build -d
    ```
 3. Access the application:
-   - **Frontend UI**: [http://localhost](http://localhost)
+   - **Frontend UI**: [http://localhost](http://localhost) (Full interactive dashboard with JWT Auth)
    - **Users API Docs**: [http://localhost/api/users/docs](http://localhost/api/users/docs)
    - **Policies API Docs**: [http://localhost/api/policies/docs](http://localhost/api/policies/docs)
    - **Claims API Docs**: [http://localhost/api/claims/docs](http://localhost/api/claims/docs)

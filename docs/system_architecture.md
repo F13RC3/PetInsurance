@@ -21,14 +21,16 @@ The system is containerized using Docker and orchestrated with Docker Compose. T
 - **Architecture**: A Single Page Application (SPA) that communicates asynchronously with the backend microservices via the API Gateway.
 
 ### 3. Backend Microservices
-Each microservice is an independent FastAPI application running on Python 3.11.
+Each microservice is an independent FastAPI application running on Python 3.11, connected to the PostgreSQL database using SQLAlchemy ORM.
 
 *   **Users Service (`/api/users`)**: 
-    *   Manages user authentication, profile data, and identity management.
+    *   Manages user authentication (`/register`, `/token`), profile data, and identity management.
+    *   **Security**: Uses `bcrypt` for password hashing and issues JSON Web Tokens (JWT) for secure session management.
 *   **Policies Service (`/api/policies`)**: 
-    *   Handles insurance logic, quoting, premium calculation, and active policy data.
+    *   Handles insurance logic, quoting (`/quote`), premium calculation, and active policy data.
 *   **Claims Service (`/api/claims`)**: 
     *   Responsible for ingestion of vet bills, claim status tracking, and reimbursement calculations.
+    *   **Integration**: Performs internal cross-service HTTP requests to the `policies-service` to validate the existence of a Policy ID before processing a new claim.
 
 ### 4. Database (PostgreSQL)
 - **Tech**: PostgreSQL 15

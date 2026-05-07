@@ -15,28 +15,23 @@ This document provides an overview of the REST APIs exposed by the backend micro
 
 **Base URL**: `/api/users/`
 
-### `GET /`
-Returns a list of all registered users.
-- **Response**: `200 OK`
-  ```json
-  [
-    {
-      "id": 1,
-      "name": "Alice Smith",
-      "email": "alice@example.com"
-    }
-  ]
-  ```
+### `POST /register`
+Registers a new user and hashes the password securely.
+- **Request Body**: `{"name": "...", "email": "...", "password": "..."}`
+- **Response**: `200 OK` (Returns created User without password)
 
-### `GET /health`
-Returns the health status of the microservice.
+### `POST /token`
+OAuth2 login endpoint to generate a JWT access token.
+- **Request Body (Form Data)**: `username=...&password=...`
+- **Response**: `200 OK` `{"access_token": "...", "token_type": "bearer"}`
+
+### `GET /me`
+Returns the currently authenticated user based on the provided Bearer token.
+- **Headers**: `Authorization: Bearer <token>`
 - **Response**: `200 OK`
-  ```json
-  {
-    "status": "ok",
-    "service": "users-service"
-  }
-  ```
+
+### `GET /`
+Returns a list of all registered users from the database.
 
 ---
 
@@ -44,23 +39,17 @@ Returns the health status of the microservice.
 
 **Base URL**: `/api/policies/`
 
-### `GET /`
-Returns a list of all active insurance policies.
-- **Response**: `200 OK`
-  ```json
-  [
-    {
-      "id": 101,
-      "user_id": 1,
-      "pet_name": "Buddy",
-      "plan_type": "Comprehensive",
-      "premium": 45.0
-    }
-  ]
-  ```
+### `POST /quote`
+Calculates an estimated insurance premium dynamically.
+- **Request Body**: `{"pet_age": 2, "pet_breed": "Dog", "plan_type": "Comprehensive"}`
+- **Response**: `200 OK` `{"premium": 40.0}`
 
-### `GET /health`
-Returns the health status of the microservice.
+### `POST /`
+Creates a new active insurance policy for a user.
+- **Request Body**: `{"user_id": 1, "pet_name": "Buddy", "pet_age": 3, "pet_breed": "Golden", "plan_type": "Comprehensive", "premium": 45.0}`
+
+### `GET /`
+Returns a list of all active insurance policies from the database.
 
 ---
 
@@ -68,19 +57,11 @@ Returns the health status of the microservice.
 
 **Base URL**: `/api/claims/`
 
-### `GET /`
-Returns a list of all submitted claims.
-- **Response**: `200 OK`
-  ```json
-  [
-    {
-      "id": 1001,
-      "policy_id": 101,
-      "amount": 150.0,
-      "status": "Approved"
-    }
-  ]
-  ```
+### `POST /`
+Submits a new pet insurance claim.
+- **Note**: This endpoint synchronously communicates with the Policies service to ensure the provided `policy_id` exists before accepting the claim.
+- **Request Body**: `{"policy_id": 1, "amount": 150.0}`
+- **Response**: `200 OK` `{"id": 1, "policy_id": 1, "amount": 150.0, "status": "Pending"}`
 
-### `GET /health`
-Returns the health status of the microservice.
+### `GET /`
+Returns a list of all submitted claims from the database.

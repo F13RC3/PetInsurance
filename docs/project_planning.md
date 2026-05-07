@@ -10,18 +10,18 @@ This document outlines the phased implementation plan for the Pet Insurance Micr
 - [x] Implement premium UI base styling (CSS).
 - [x] Scaffold FastAPI structures for all three microservices.
 
-## Phase 2: Database and Persistence (Next)
-- [ ] Implement SQLAlchemy ORM models for Users, Policies, and Claims.
-- [ ] Configure PostgreSQL database connection pools in FastAPI.
-- [ ] Create database migration scripts (Alembic).
-- [ ] Replace mock in-memory data with actual database queries.
+## Phase 2: Database and Persistence (Completed)
+- [x] Implement SQLAlchemy ORM models for Users, Policies, and Claims.
+- [x] Configure PostgreSQL database connection pools in FastAPI.
+- [x] Use SQLAlchemy auto-generation for tables (rapid prototyping).
+- [x] Replace mock in-memory data with actual database queries.
 
-## Phase 3: Core Business Logic & Integration
-- [ ] Implement user registration and JWT-based authentication.
-- [ ] Build the quoting engine in the Policies service.
-- [ ] Develop the claim submission flow (including document upload handling).
-- [ ] Connect the React frontend to the real API endpoints.
-- [ ] Implement inter-service communication (e.g., Claims service verifying Policy status).
+## Phase 3: Core Business Logic & Integration (Completed)
+- [x] Implement user registration and JWT-based authentication.
+- [x] Build the quoting engine in the Policies service.
+- [x] Develop the claim submission flow (including document upload handling/validation).
+- [x] Connect the React frontend to the real API endpoints.
+- [x] Implement inter-service communication (e.g., Claims service verifying Policy status).
 
 ## Phase 4: Production Readiness
 - [ ] Implement centralized logging and tracing (e.g., ELK stack or OpenTelemetry).

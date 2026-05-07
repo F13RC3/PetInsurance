@@ -7,5 +7,7 @@ class Policy(Base):
     id = Column(Integer, primary_key=True, index=True)
     user_id = Column(Integer, index=True)
     pet_name = Column(String, index=True)
+    pet_age = Column(Integer)
+    pet_breed = Column(String)
     plan_type = Column(String)
     premium = Column(Float)

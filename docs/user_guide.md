@@ -7,16 +7,26 @@ The application is accessible via your web browser at [http://localhost](http://
 
 ## Navigation and Features
 
-### 1. The Landing Page
-Upon accessing the platform, you will see our premium, dark-themed landing page. 
-- **Get a Quote**: Clicking the primary "Get a Quote" button will initiate the policy generation flow (coming soon).
-- **Service Highlights**: Learn about our lightning-fast claims processing and flexible policy options.
+### 1. Landing Page & Registration
+Upon accessing the platform, you will see our premium landing page.
+- Click **Register** or **Get Started** to create a new account.
+- The registration securely saves your data and automatically logs you in.
+- Alternatively, if you already have an account, click **Login** in the top navigation bar.
 
-### 2. System Status Check
-At the bottom of the landing page, there is a live API Status Check module. 
-- This module automatically communicates with the `Users Microservice` in the background.
-- If the system is healthy, you will see a JSON payload of mock user data displayed.
-- If the system is down, an error message will inform you that the backend could not be reached.
+### 2. User Dashboard
+Once authenticated, you will be directed to your personal dashboard. Your session is secured via a JWT (JSON Web Token) that lasts for 30 minutes.
+
+From the Dashboard, you have access to two main features:
+
+#### Get a Quote
+- Enter your pet's age and select a plan type (Comprehensive or Accident Only).
+- Click **Calculate Premium**.
+- The system will dynamically calculate your monthly premium based on your inputs and display it instantly.
+
+#### Submit a Claim
+- If you have an active policy, you can submit a vet bill claim.
+- Enter your **Policy ID** and the **Claim Amount**.
+- The system will verify with our backend that your Policy ID is valid before accepting the claim.
 
 ## Developer & Admin Features
 If you are a developer or administrator, you can directly access the backend APIs to manage data:
