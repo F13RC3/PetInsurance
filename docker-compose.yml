@@ -1,0 +1,91 @@
+version: "3.8"
+
+services:
+  postgres:
+    image: postgres:15-alpine
+    container_name: petinsurance_db
+    environment:
+      POSTGRES_USER: petuser
+      POSTGRES_PASSWORD: petpassword
+      POSTGRES_DB: petinsurance
+    ports:
+      - "5432:5432"
+    volumes:
+      - pgdata:/var/lib/postgresql/data
+      - ./database/init:/docker-entrypoint-initdb.d
+    networks:
+      - pet-net
+
+  users-service:
+    build:
+      context: ./services/users-service
+    container_name: users_service
+    environment:
+      - DATABASE_URL=postgresql://petuser:petpassword@postgres:5432/petinsurance
+    depends_on:
+      - postgres
+    networks:
+      - pet-net
+    volumes:
+      - ./services/users-service:/app
+
+  policies-service:
+    build:
+      context: ./services/policies-service
+    container_name: policies_service
+    environment:
+      - DATABASE_URL=postgresql://petuser:petpassword@postgres:5432/petinsurance
+    depends_on:
+      - postgres
+    networks:
+      - pet-net
+    volumes:
+      - ./services/policies-service:/app
+
+  claims-service:
+    build:
+      context: ./services/claims-service
+    container_name: claims_service
+    environment:
+      - DATABASE_URL=postgresql://petuser:petpassword@postgres:5432/petinsurance
+    depends_on:
+      - postgres
+    networks:
+      - pet-net
+    volumes:
+      - ./services/claims-service:/app
+
+  frontend:
+    build:
+      context: ./frontend
+    container_name: frontend_app
+    ports:
+      - "5173:5173"
+    environment:
+      - NODE_ENV=development
+    networks:
+      - pet-net
+    volumes:
+      - ./frontend:/app
+      - /app/node_modules
+
+  gateway:
+    build:
+      context: ./gateway
+    container_name: api_gateway
+    ports:
+      - "80:80"
+    depends_on:
+      - users-service
+      - policies-service
+      - claims-service
+      - frontend
+    networks:
+      - pet-net
+
+volumes:
+  pgdata:
+
+networks:
+  pet-net:
+    driver: bridge
