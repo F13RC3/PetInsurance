@@ -11,5 +11,11 @@ export default defineConfig({
     watch: {
       usePolling: true,
     },
+    proxy: {
+      '/api': {
+        target: 'http://gateway:80',
+        changeOrigin: true,
+      }
+    }
   },
 })
